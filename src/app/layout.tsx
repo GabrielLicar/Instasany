@@ -20,6 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="shortcut icon" href="/logo.svg" type="image/*" />
       <body className={`${epilogue.className} antialiased`}>
         <Header />
         {children}
